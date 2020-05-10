@@ -4,6 +4,14 @@ html{
 
 body{
     background-image: linear-gradient(to bottom, #FC5E55,#FA4083);
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 1.125rem;
+}
+
+a{
+    color: white;
+    text-decoration: none;
 }
 
 .container{
@@ -28,34 +36,89 @@ main{
 }
 
 .cards{
-    background-color: lightgreen;
-    min-height: 300px;
     display: flex;
     justify-content: space-between;
+    text-align: center;
 }
 
 .card1{
-    background-color: pink;
-    min-height: 300px;
+    background-image: url(img/image-background-card1.jpg);
+    background-size: cover;
+    background-position: bottom;
+    min-height: 250px;
     width: 30%;
 }
 
 .card2{
-    background-color: rgb(230, 107, 128);
-    min-height: 300px;
+    background-image: url(img/image-background-card2.jpg);
+    background-size: cover;
+    background-position: bottom;
+    min-height: 250px;
     width: 30%;
 }
 
 .card3{
-    background-color: rgb(226, 33, 65);
-    min-height: 300px;
+    background-image: url(img/image-background-card3.jpg);
+    background-size: cover;
+    background-position: bottom;
+    min-height: 250px;
     width: 30%;
+}
+
+.card1, .card2, .card3{
+    padding: 30px 30px 20px 30px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.424);
 }
 
 .herobox1{
     flex: 2;
+    padding-right: 100px;
 }
 
 .herobox2{
     flex: 1;
+}
+
+h1{
+    font-size: 3.25rem;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 1rem;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.322);
+}
+
+h2{
+    font-size: 2rem;
+    font-family: 'Playfair Display', serif;
+    margin-top: 20px;
+    
+}
+
+.cards p{
+    font-size: .85rem;
+    line-height: 1.2rem;
+    margin-top: 10px;
+    
+}
+
+p{
+    line-height: 1.75rem;
+    margin-bottom: 0.5rem;
+
+}
+
+.cards i{
+    font-size: 100px; 
+}
+
+.button{
+    background-color: white;
+    color: #FA4083;
+    font-family: 'Playfair Display', serif;
+    padding: 11px;
+    display: inline-block;
+    margin-top: 10px;
+    border-radius: 4px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.322);
+   
 }
